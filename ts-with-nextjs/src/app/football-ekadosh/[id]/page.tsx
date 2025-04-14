@@ -24,7 +24,7 @@ const SinglePlayer = async ({ params }: { params: { id: number } }) => {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="rounded-xl p-4 shadow-xl max-w-4xl h-[550px]">
+      <div className="rounded-xl p-4 shadow-xl max-w-4xl h-[550px] border border-gray-300">
         {/* ⚠️ next/image does not accept 'undefined' as src 
             So we conditionally render <Image /> only if findPlayer exists */}
         {findPlayer && (
