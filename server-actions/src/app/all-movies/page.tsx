@@ -11,7 +11,7 @@ const AllMovies = async () => {
         {movies.length > 0 ? (
           movies.map((movie) => <ShowMovie key={movie.id} data={movie} />)
         ) : (
-          <p>No movies added yet.</p>
+          <p className="text-center font-bold text-5xl">No movies added yet.</p>
         )}
       </div>
     </div>
